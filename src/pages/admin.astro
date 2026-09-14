@@ -13,7 +13,7 @@ import Layout from '../layouts/Layout.astro';
         <div class="absolute -top-10 -right-10 w-32 h-32 bg-pink-500/10 blur-3xl rounded-full"></div>
 
         <p class="text-neutral-400 mb-6 text-sm">
-          Enter your GitHub Personal Access Token to sync products from the showcase repository and automatically fetch missing images from Wikimedia Commons directly from your browser.
+          Enter your GitHub Personal Access Token to sync products from the showcase repository and automatically fetch missing images from OpenFoodFacts directly from your browser. (Note: Sync may pause to respect API rate limits).
         </p>
 
         <form
@@ -152,6 +152,64 @@ import Layout from '../layouts/Layout.astro';
             .replace(/-+$/, '');            // Trim - from end of text
         };
 
+        // Fuzzy match algorithm helpers
+        const cleanString = (str: string) => {
+            if (!str) return "";
+            return str.toLowerCase().replace(/[^a-z0-9]/g, '');
+        };
+
+        const levenshtein = (a: string, b: string) => {
+            const matrix = [];
+            for (let i = 0; i <= b.length; i++) matrix[i] = [i];
+            for (let j = 0; j <= a.length; j++) matrix[0][j] = j;
+            for (let i = 1; i <= b.length; i++) {
+                for (let j = 1; j <= a.length; j++) {
+                    if (b.charAt(i - 1) === a.charAt(j - 1)) {
+                        matrix[i][j] = matrix[i - 1][j - 1];
+                    } else {
+                        matrix[i][j] = Math.min(matrix[i - 1][j - 1] + 1, matrix[i][j - 1] + 1, matrix[i - 1][j] + 1);
+                    }
+                }
+            }
+            return matrix[b.length][a.length];
+        };
+
+        const getNumbers = (str: string) => {
+            if (!str) return [];
+            const normalized = str.replace(/,/g, '.');
+            const matches = normalized.match(/[0-9]+([.][0-9]+)?/g);
+            return matches ? matches.map(Number) : [];
+        };
+
+        const hasQuantityMismatch = (jtlName: string, offQuantity: string) => {
+            if (!offQuantity || !jtlName) return false;
+            const jtlNums = getNumbers(jtlName);
+            const offNums = getNumbers(offQuantity);
+            if (jtlNums.length === 0 || offNums.length === 0) return false;
+            for (const on of offNums) {
+                for (const jn of jtlNums) {
+                    if (Math.abs(on - jn) < 0.001) return false;
+                    if (Math.abs(on - (jn * 1000)) < 0.01) return false;
+                    if (Math.abs((on * 1000) - jn) < 0.01) return false;
+                }
+            }
+            return true;
+        };
+
+        let apiCalls = 0;
+        const cooldownIfNeeded = async () => {
+          apiCalls++;
+          if (apiCalls >= 10) {
+            log('OpenFoodFacts API Rate Limit approaching (10 calls). Initiating 60-second cooldown...', true);
+            for(let i=60; i>0; i--) {
+              if (i % 10 === 0 || i <= 5) log(`Resuming in ${i} seconds...`);
+              await new Promise(r => setTimeout(r, 1000));
+            }
+            apiCalls = 0;
+            log('Cooldown complete. Resuming sync...');
+          }
+        };
+
         for (const prod of products) {
           const safeName = slugify(prod.Name) || 'product';
           let imageUrl = overrides[prod.ArtNr] || overrides[safeName] || null; // Support override by Name slug or ArtNr just in case
@@ -169,68 +227,91 @@ import Layout from '../layouts/Layout.astro';
             }
 
             if (!imageExists) {
-              log(`Searching Wikimedia Commons for: ${prod.Name}`);
+              await cooldownIfNeeded();
+              log(`Searching OpenFoodFacts for: ${prod.Name}`);
+              const offRes = await fetch(`https://world.openfoodfacts.org/cgi/search.pl?search_terms=${encodeURIComponent(prod.Name)}&search_simple=1&action=process&json=1&page_size=10`);
 
-              // Use Wikimedia Commons API.
-              const query = encodeURIComponent(prod.Name);
-              const wikiUrl = `https://commons.wikimedia.org/w/api.php?action=query&format=json&generator=search&gsrsearch=${query}&gsrnamespace=6&gsrlimit=1&prop=imageinfo&iiprop=url&origin=*`;
+              if (offRes.ok) {
+                const offData = await offRes.json();
+                if (offData.products && offData.products.length > 0) {
 
-              try {
-                const offRes = await fetch(wikiUrl);
-                if (offRes.ok) {
-                  const offData = await offRes.json();
-                  if (offData.query && offData.query.pages) {
-                    const pages = Object.values(offData.query.pages) as any[];
-                    if (pages.length > 0 && pages[0].imageinfo && pages[0].imageinfo.length > 0) {
-                      const foundImageUrl = pages[0].imageinfo[0].url;
+                  let bestMatchScore = 0;
+                  let bestMatchImg = null;
 
-                      if (foundImageUrl) {
-                        log(`Found image: ${foundImageUrl}`);
-                        try {
-                          // Fetch image as blob
-                          const imgRes = await fetch(foundImageUrl);
-                          const blob = await imgRes.blob();
+                  const cleanTarget = cleanString(prod.Name);
+                  const targetLower = prod.Name.toLowerCase();
 
-                          // Convert to base64
-                          const base64data = await new Promise<string>((resolve, reject) => {
-                            const reader = new FileReader();
-                            reader.onloadend = () => {
-                               const res = reader.result as string;
-                               // result is data:image/jpeg;base64,..... we just need the base64 part
-                               resolve(res.split(',')[1]);
-                            };
-                            reader.onerror = reject;
-                            reader.readAsDataURL(blob);
-                          });
+                  for (const candidate of offData.products) {
+                    const offName = candidate.product_name || candidate.generic_name || '';
+                    if (!offName) continue;
 
-                          // Create blob in GitHub
-                          log(`Creating blob for ${localImageName}...`);
-                          const blobData = await ghRequest('/git/blobs', 'POST', {
-                            content: base64data,
-                            encoding: 'base64'
-                          });
+                    const cleanOFF = cleanString(offName);
+                    if (!cleanOFF) continue;
 
-                          newTreeItems.push({
-                            path: `public/images/${localImageName}`,
-                            mode: '100644',
-                            type: 'blob',
-                            sha: blobData.sha
-                          });
-                        } catch (e: any) {
-                          log(`Error downloading/blobbing image for ${prod.Name}: ${e.message}`, true);
-                        }
-                      } else {
-                         log(`No valid image URL returned from Wikimedia Commons for ${prod.Name}`);
-                      }
-                    } else {
-                       log(`No matching image pages found on Wikimedia Commons for ${prod.Name}`);
+                    const wordsOFF = offName.toLowerCase().split(/[^a-z0-9]+/).filter(Boolean);
+                    let matchedWords = 0;
+                    wordsOFF.forEach((w: string) => {
+                        if (targetLower.includes(w)) matchedWords++;
+                    });
+                    const wordScore = wordsOFF.length > 0 ? (matchedWords / wordsOFF.length) * 100 : 0;
+
+                    const lev = levenshtein(cleanOFF, cleanTarget);
+                    const maxLen = Math.max(cleanOFF.length, cleanTarget.length);
+                    const levScore = maxLen > 0 ? (1 - lev / maxLen) * 100 : 0;
+
+                    const currentScore = (wordScore * 0.78) + (levScore * 0.22);
+
+                    const qMismatch = candidate.quantity ? hasQuantityMismatch(prod.Name, candidate.quantity) : false;
+
+                    if (currentScore > bestMatchScore && !qMismatch && currentScore >= 45) {
+                        bestMatchScore = currentScore;
+                        bestMatchImg = candidate.image_url || candidate.image_front_url;
+                    }
+                  }
+
+                  if (bestMatchImg) {
+                    log(`Found matching image on OFF (Score: ${bestMatchScore.toFixed(1)}%): ${bestMatchImg}`);
+                    try {
+                      // Fetch image as blob
+                      const imgRes = await fetch(bestMatchImg);
+                      const blob = await imgRes.blob();
+
+                      // Convert to base64
+                      const base64data = await new Promise<string>((resolve, reject) => {
+                        const reader = new FileReader();
+                        reader.onloadend = () => {
+                           const res = reader.result as string;
+                           // result is data:image/jpeg;base64,..... we just need the base64 part
+                           resolve(res.split(',')[1]);
+                        };
+                        reader.onerror = reject;
+                        reader.readAsDataURL(blob);
+                      });
+
+                      // Create blob in GitHub
+                      log(`Creating blob for ${localImageName}...`);
+                      const blobData = await ghRequest('/git/blobs', 'POST', {
+                        content: base64data,
+                        encoding: 'base64'
+                      });
+
+                      newTreeItems.push({
+                        path: `public/images/${localImageName}`,
+                        mode: '100644',
+                        type: 'blob',
+                        sha: blobData.sha
+                      });
+                    } catch (e: any) {
+                      log(`Error downloading/blobbing image for ${prod.Name}: ${e.message}`, true);
                     }
                   } else {
-                     log(`No results on Wikimedia Commons for ${prod.Name}`);
+                     log(`No suitable match found on OpenFoodFacts for ${prod.Name} (Either low score or quantity mismatch).`);
                   }
+                } else {
+                   log(`No matches on OpenFoodFacts for ${prod.Name}`);
                 }
-              } catch (e: any) {
-                log(`Error searching Wikimedia Commons: ${e.message}`, true);
+              } else {
+                 log(`OpenFoodFacts API error for ${prod.Name}`);
               }
             }
           }
