@@ -272,8 +272,12 @@ import Layout from '../layouts/Layout.astro';
                   if (bestMatchImg) {
                     log(`Found matching image on OFF (Score: ${bestMatchScore.toFixed(1)}%): ${bestMatchImg}`);
                     try {
-                      // Fetch image as blob
-                      const imgRes = await fetch(bestMatchImg);
+                      // Fetch image as blob via CORS proxy
+                      const corsProxyUrl = `https://corsproxy.io/?${encodeURIComponent(bestMatchImg)}`;
+                      const imgRes = await fetch(corsProxyUrl);
+                      if (!imgRes.ok) {
+                        throw new Error(`Proxy responded with status ${imgRes.status}`);
+                      }
                       const blob = await imgRes.blob();
 
                       // Convert to base64
