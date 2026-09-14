@@ -13,7 +13,7 @@ import Layout from '../layouts/Layout.astro';
         <div class="absolute -top-10 -right-10 w-32 h-32 bg-pink-500/10 blur-3xl rounded-full"></div>
 
         <p class="text-neutral-400 mb-6 text-sm">
-          Enter your GitHub Personal Access Token to sync products from the showcase repository and automatically fetch missing images from OpenFoodFacts directly from your browser.
+          Enter your GitHub Personal Access Token to sync products from the showcase repository and automatically fetch missing images from Wikimedia Commons directly from your browser.
         </p>
 
         <form
@@ -142,9 +142,20 @@ import Layout from '../layouts/Layout.astro';
         const finalProducts = [];
         const newTreeItems = []; // Collect files to update in one commit
 
+        // Helper to slugify product name for filename
+        const slugify = (text: string) => {
+          return text.toString().toLowerCase()
+            .replace(/\s+/g, '-')           // Replace spaces with -
+            .replace(/[^\w\-]+/g, '')       // Remove all non-word chars
+            .replace(/\-\-+/g, '-')         // Replace multiple - with single -
+            .replace(/^-+/, '')             // Trim - from start of text
+            .replace(/-+$/, '');            // Trim - from end of text
+        };
+
         for (const prod of products) {
-          let imageUrl = overrides[prod.ArtNr] || null;
-          const localImageName = `${prod.ArtNr}.jpg`;
+          const safeName = slugify(prod.Name) || 'product';
+          let imageUrl = overrides[prod.ArtNr] || overrides[safeName] || null; // Support override by Name slug or ArtNr just in case
+          const localImageName = `${safeName}.jpg`;
 
           if (!imageUrl) {
             // Check if image exists in repo already
@@ -158,55 +169,68 @@ import Layout from '../layouts/Layout.astro';
             }
 
             if (!imageExists) {
-              log(`Searching OpenFoodFacts for: ${prod.Name}`);
-              const offRes = await fetch(`https://world.openfoodfacts.org/cgi/search.pl?search_terms=${encodeURIComponent(prod.Name)}&search_simple=1&action=process&json=1&page_size=1`);
-              if (offRes.ok) {
-                const offData = await offRes.json();
-                if (offData.products && offData.products.length > 0) {
-                  const bestMatch = offData.products[0];
-                  const foundImageUrl = bestMatch.image_url || bestMatch.image_front_url;
+              log(`Searching Wikimedia Commons for: ${prod.Name}`);
 
-                  if (foundImageUrl) {
-                    log(`Found image: ${foundImageUrl}`);
-                    try {
-                      // Fetch image as blob
-                      const imgRes = await fetch(foundImageUrl);
-                      const blob = await imgRes.blob();
+              // Use Wikimedia Commons API.
+              const query = encodeURIComponent(prod.Name);
+              const wikiUrl = `https://commons.wikimedia.org/w/api.php?action=query&format=json&generator=search&gsrsearch=${query}&gsrnamespace=6&gsrlimit=1&prop=imageinfo&iiprop=url&origin=*`;
 
-                      // Convert to base64
-                      const base64data = await new Promise<string>((resolve, reject) => {
-                        const reader = new FileReader();
-                        reader.onloadend = () => {
-                           const res = reader.result as string;
-                           // result is data:image/jpeg;base64,..... we just need the base64 part
-                           resolve(res.split(',')[1]);
-                        };
-                        reader.onerror = reject;
-                        reader.readAsDataURL(blob);
-                      });
+              try {
+                const offRes = await fetch(wikiUrl);
+                if (offRes.ok) {
+                  const offData = await offRes.json();
+                  if (offData.query && offData.query.pages) {
+                    const pages = Object.values(offData.query.pages) as any[];
+                    if (pages.length > 0 && pages[0].imageinfo && pages[0].imageinfo.length > 0) {
+                      const foundImageUrl = pages[0].imageinfo[0].url;
 
-                      // Create blob in GitHub
-                      log(`Creating blob for ${localImageName}...`);
-                      const blobData = await ghRequest('/git/blobs', 'POST', {
-                        content: base64data,
-                        encoding: 'base64'
-                      });
+                      if (foundImageUrl) {
+                        log(`Found image: ${foundImageUrl}`);
+                        try {
+                          // Fetch image as blob
+                          const imgRes = await fetch(foundImageUrl);
+                          const blob = await imgRes.blob();
 
-                      newTreeItems.push({
-                        path: `public/images/${localImageName}`,
-                        mode: '100644',
-                        type: 'blob',
-                        sha: blobData.sha
-                      });
-                    } catch (e: any) {
-                      log(`Error downloading/blobbing image for ${prod.Name}: ${e.message}`, true);
+                          // Convert to base64
+                          const base64data = await new Promise<string>((resolve, reject) => {
+                            const reader = new FileReader();
+                            reader.onloadend = () => {
+                               const res = reader.result as string;
+                               // result is data:image/jpeg;base64,..... we just need the base64 part
+                               resolve(res.split(',')[1]);
+                            };
+                            reader.onerror = reject;
+                            reader.readAsDataURL(blob);
+                          });
+
+                          // Create blob in GitHub
+                          log(`Creating blob for ${localImageName}...`);
+                          const blobData = await ghRequest('/git/blobs', 'POST', {
+                            content: base64data,
+                            encoding: 'base64'
+                          });
+
+                          newTreeItems.push({
+                            path: `public/images/${localImageName}`,
+                            mode: '100644',
+                            type: 'blob',
+                            sha: blobData.sha
+                          });
+                        } catch (e: any) {
+                          log(`Error downloading/blobbing image for ${prod.Name}: ${e.message}`, true);
+                        }
+                      } else {
+                         log(`No valid image URL returned from Wikimedia Commons for ${prod.Name}`);
+                      }
+                    } else {
+                       log(`No matching image pages found on Wikimedia Commons for ${prod.Name}`);
                     }
                   } else {
-                     log(`No image URL returned from OpenFoodFacts for ${prod.Name}`);
+                     log(`No results on Wikimedia Commons for ${prod.Name}`);
                   }
-                } else {
-                   log(`No matches on OpenFoodFacts for ${prod.Name}`);
                 }
+              } catch (e: any) {
+                log(`Error searching Wikimedia Commons: ${e.message}`, true);
               }
             }
           }
