@@ -55,7 +55,7 @@ import Layout from '../../layouts/Layout.astro';
       </div>
 
       <div class="mt-8 text-center">
-        <a href="/SaftLAN/index.html" class="text-neutral-500 hover:text-pink-400 transition-colors text-sm uppercase tracking-widest font-bold">← Back to Kiosk</a>
+        <a href="/index.html" class="text-neutral-500 hover:text-pink-400 transition-colors text-sm uppercase tracking-widest font-bold">← Back to Kiosk</a>
       </div>
     </div>
   </main>
@@ -215,7 +215,7 @@ import Layout from '../../layouts/Layout.astro';
             // Because Astro is configured with base: '/SaftLAN', the image path must be relative to the domain root
             // Astro handles paths in the public folder. It's safer to use a relative or absolute path taking base into account if deployed.
             // When using static deployment, paths from public/ are just at the root. But with a base path, we need to prefix.
-            imageUrl = `/SaftLAN/images/${localImageName}`;
+            imageUrl = `/images/${localImageName}`;
           }
 
           finalProducts.push({
