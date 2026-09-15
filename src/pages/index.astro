@@ -4,6 +4,7 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 
 let products: Array<{ ArtNr: string, Name: string, Preis: string, image?: string }> = [];
+const imageBase = Astro.url.pathname;
 try {
   const productsStr = await fs.readFile(path.join(process.cwd(), 'src/data/products.json'), 'utf-8');
   products = JSON.parse(productsStr);
@@ -65,7 +66,7 @@ try {
 
               <div class="h-64 bg-black p-6 flex items-center justify-center relative z-10 overflow-hidden">
                 {p.image ? (
-                  <img src={p.image} alt={p.Name} class="max-h-full object-contain filter group-hover:drop-shadow-[0_0_15px_rgba(0,240,255,0.8)] transition-all duration-300 transform group-hover:scale-110" />
+                  <img src={`${imageBase}${p.image.replace(/^\/+/, '')}`} alt={p.Name} class="max-h-full object-contain filter group-hover:drop-shadow-[0_0_15px_rgba(0,240,255,0.8)] transition-all duration-300 transform group-hover:scale-110" />
                 ) : (
                   <div class="text-neutral-700 text-6xl font-black">?</div>
                 )}
