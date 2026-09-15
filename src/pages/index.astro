@@ -4,7 +4,7 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 
 let products: Array<{ ArtNr: string, Name: string, Preis: string, image?: string }> = [];
-const imageBase = 'https://raw.githubusercontent.com/jonichrishannon-eng/SaftLAN/refs/heads/main/';
+const imageBase = '/SaftLAN/';
 try {
   const productsStr = await fs.readFile(path.join(process.cwd(), 'src/data/products.json'), 'utf-8');
   products = JSON.parse(productsStr);
