@@ -3,1506 +3,1506 @@
     "ArtNr": "600380",
     "Name": "Maggi 5 Minuten Terrine Nudeln in Rahmso�e",
     "Preis": "1,80",
-    "image": "/images/maggi-5-minuten-terrine-nudeln-in-rahmsoe.jpg"
+    "image": "/public/images/maggi-5-minuten-terrine-nudeln-in-rahmsoe.jpg"
   },
   {
     "ArtNr": "600370",
     "Name": "Maggi 5 Minuten Terrine H�hnertopf",
     "Preis": "0,00",
-    "image": "/images/maggi-5-minuten-terrine-hhnertopf.jpg"
+    "image": "/public/images/maggi-5-minuten-terrine-hhnertopf.jpg"
   },
   {
     "ArtNr": "600360",
     "Name": "Maggi 5 Minuten Terrine Spagetti Bolognese",
     "Preis": "1,80",
-    "image": "/images/maggi-5-minuten-terrine-spagetti-bolognese.jpg"
+    "image": "/public/images/maggi-5-minuten-terrine-spagetti-bolognese.jpg"
   },
   {
     "ArtNr": "600350",
     "Name": "Maggi 5 Minuten Terrine Gulaschtopf",
     "Preis": "1,80",
-    "image": "/images/maggi-5-minuten-terrine-gulaschtopf.jpg"
+    "image": "/public/images/maggi-5-minuten-terrine-gulaschtopf.jpg"
   },
   {
     "ArtNr": "5",
     "Name": "ja! Cashewkerne ger�stet & gesalzen 150g",
     "Preis": "2,60",
-    "image": "/images/ja-cashewkerne-gerstet-gesalzen-150g.jpg"
+    "image": "/public/images/ja-cashewkerne-gerstet-gesalzen-150g.jpg"
   },
   {
     "ArtNr": "202040",
     "Name": "REWE Bio Ayran 250ml",
     "Preis": "1,00",
-    "image": "/images/rewe-bio-ayran-250ml.jpg"
+    "image": "/public/images/rewe-bio-ayran-250ml.jpg"
   },
   {
     "ArtNr": "102030",
     "Name": "Andechser Natur Bio Kefir 500g",
     "Preis": "1,80",
-    "image": "/images/andechser-natur-bio-kefir-500g.jpg"
+    "image": "/public/images/andechser-natur-bio-kefir-500g.jpg"
   },
   {
     "ArtNr": "206630",
     "Name": "Kinder Schoko Bon 1 Stk",
     "Preis": "0,20",
-    "image": "/images/kinder-schoko-bon-1-stk.jpg"
+    "image": "/public/images/kinder-schoko-bon-1-stk.jpg"
   },
   {
     "ArtNr": "206620",
     "Name": "REWE Bio Apfelchips 70g",
     "Preis": "2,50",
-    "image": "/images/rewe-bio-apfelchips-70g.jpg"
+    "image": "/public/images/rewe-bio-apfelchips-70g.jpg"
   },
   {
     "ArtNr": "601650",
     "Name": "REWE Bio Quetschie Apfel-Banane-Kirsche 90g",
     "Preis": "0,80",
-    "image": "/images/rewe-bio-quetschie-apfel-banane-kirsche-90g.jpg"
+    "image": "/public/images/rewe-bio-quetschie-apfel-banane-kirsche-90g.jpg"
   },
   {
     "ArtNr": "601600",
     "Name": "REWE Bio Quetschie Apfel-Erdbeer-Heidelbeere 90g",
     "Preis": "0,80",
-    "image": "/images/rewe-bio-quetschie-apfel-erdbeer-heidelbeere-90g.jpg"
+    "image": "/public/images/rewe-bio-quetschie-apfel-erdbeer-heidelbeere-90g.jpg"
   },
   {
     "ArtNr": "102020",
     "Name": "Tasse Espresso hei� / Espresso",
     "Preis": "0,50",
-    "image": "/images/tasse-espresso-hei-espresso.jpg"
+    "image": "/public/images/tasse-espresso-hei-espresso.jpg"
   },
   {
     "ArtNr": "102010",
     "Name": "Tasse Kaffee hei� / Cafe Crema",
     "Preis": "0,50",
-    "image": "/images/tasse-kaffee-hei-cafe-crema.jpg"
+    "image": "/public/images/tasse-kaffee-hei-cafe-crema.jpg"
   },
   {
     "ArtNr": "300610",
     "Name": "Taschent�cherbox",
     "Preis": "1,50",
-    "image": "/images/taschentcherbox.jpg"
+    "image": "/public/images/taschentcherbox.jpg"
   },
   {
     "ArtNr": "100520",
     "Name": "Adelholzener Johannisbeere 0,5l",
     "Preis": "1,20",
-    "image": "/images/adelholzener-johannisbeere-05l.jpg"
+    "image": "/public/images/adelholzener-johannisbeere-05l.jpg"
   },
   {
     "ArtNr": "206612",
     "Name": "Kinder Happy Hippo 1 Stk",
     "Preis": "0,60",
-    "image": "/images/kinder-happy-hippo-1-stk.jpg"
+    "image": "/public/images/kinder-happy-hippo-1-stk.jpg"
   },
   {
     "ArtNr": "206605",
     "Name": "Em-Eukal verschied. Sorten",
     "Preis": "2,00",
-    "image": "/images/em-eukal-verschied-sorten.jpg"
+    "image": "/public/images/em-eukal-verschied-sorten.jpg"
   },
   {
     "ArtNr": "605100",
     "Name": "Laugenstange / Tomaten Mozzarella Pesto",
     "Preis": "1,80",
-    "image": "/images/laugenstange-tomaten-mozzarella-pesto.jpg"
+    "image": "/public/images/laugenstange-tomaten-mozzarella-pesto.jpg"
   },
   {
     "ArtNr": "100510",
     "Name": "Paulaner Spezi ZERO 0,5l Glas",
     "Preis": "1,20",
-    "image": "/images/paulaner-spezi-zero-05l-glas.jpg"
+    "image": "/public/images/paulaner-spezi-zero-05l-glas.jpg"
   },
   {
     "ArtNr": "101940",
     "Name": "Sprite 0,5l",
     "Preis": "1,50",
-    "image": "/images/sprite-05l.jpg"
+    "image": "/public/images/sprite-05l.jpg"
   },
   {
     "ArtNr": "101930",
     "Name": "Fanta 0,5l",
     "Preis": "1,50",
-    "image": "/images/fanta-05l.jpg"
+    "image": "/public/images/fanta-05l.jpg"
   },
   {
     "ArtNr": "101920",
     "Name": "Coca Cola Zero 0,5l",
     "Preis": "1,50",
-    "image": "/images/coca-cola-zero-05l.jpg"
+    "image": "/public/images/coca-cola-zero-05l.jpg"
   },
   {
     "ArtNr": "101910",
     "Name": "Coca Cola Classic 0,5l",
     "Preis": "1,50",
-    "image": "/images/coca-cola-classic-05l.jpg"
+    "image": "/public/images/coca-cola-classic-05l.jpg"
   },
   {
     "ArtNr": "603225",
     "Name": "Zutat - Weltmeisterbr�tchen",
     "Preis": "0,40",
-    "image": "/images/zutat-weltmeisterbrtchen.jpg"
+    "image": "/public/images/zutat-weltmeisterbrtchen.jpg"
   },
   {
     "ArtNr": "208620",
     "Name": "Kinder Joy",
     "Preis": "1,50",
-    "image": "/images/kinder-joy.jpg"
+    "image": "/public/images/kinder-joy.jpg"
   },
   {
     "ArtNr": "701600",
     "Name": "EIS Yogurette Buttermilch Joghurt & Lemon",
     "Preis": "1,20",
-    "image": "/images/eis-yogurette-buttermilch-joghurt-lemon.jpg"
+    "image": "/public/images/eis-yogurette-buttermilch-joghurt-lemon.jpg"
   },
   {
     "ArtNr": "701500",
     "Name": "EIS Tropical Pirulo",
     "Preis": "1,20",
-    "image": "/images/eis-tropical-pirulo.jpg"
+    "image": "/public/images/eis-tropical-pirulo.jpg"
   },
   {
     "ArtNr": "701400",
     "Name": "EIS Nogger",
     "Preis": "1,20",
-    "image": "/images/eis-nogger.jpg"
+    "image": "/public/images/eis-nogger.jpg"
   },
   {
     "ArtNr": "700110",
     "Name": "EIS Cornetto Erdbeere",
     "Preis": "1,20",
-    "image": "/images/eis-cornetto-erdbeere.jpg"
+    "image": "/public/images/eis-cornetto-erdbeere.jpg"
   },
   {
     "ArtNr": "605000",
     "Name": "Laugenstange / Schinken K�se",
     "Preis": "1,60",
-    "image": "/images/laugenstange-schinken-kse.jpg"
+    "image": "/public/images/laugenstange-schinken-kse.jpg"
   },
   {
     "ArtNr": "204560",
     "Name": "kinder Schokolade 4er",
     "Preis": "1,00",
-    "image": "/images/kinder-schokolade-4er.jpg"
+    "image": "/public/images/kinder-schokolade-4er.jpg"
   },
   {
     "ArtNr": "204550",
     "Name": "Yogurette 4er",
     "Preis": "1,00",
-    "image": "/images/yogurette-4er.jpg"
+    "image": "/public/images/yogurette-4er.jpg"
   },
   {
     "ArtNr": "201010",
     "Name": "Studentenfutter Gro� 200g",
     "Preis": "2,60",
-    "image": "/images/studentenfutter-gro-200g.jpg"
+    "image": "/public/images/studentenfutter-gro-200g.jpg"
   },
   {
     "ArtNr": "206210",
     "Name": "BiFi Classic versch. Sorten",
     "Preis": "1,00",
-    "image": "/images/bifi-classic-versch-sorten.jpg"
+    "image": "/public/images/bifi-classic-versch-sorten.jpg"
   },
   {
     "ArtNr": "603220",
     "Name": "Zutat - Schinkenwurst",
     "Preis": "0,15",
-    "image": "/images/zutat-schinkenwurst.jpg"
+    "image": "/public/images/zutat-schinkenwurst.jpg"
   },
   {
     "ArtNr": "205222",
     "Name": "Schokoladenhasen am Stiel",
     "Preis": "0,40",
-    "image": "/images/schokoladenhasen-am-stiel.jpg"
+    "image": "/public/images/schokoladenhasen-am-stiel.jpg"
   },
   {
     "ArtNr": "205220",
     "Name": "Osterhase",
     "Preis": "1,60",
-    "image": "/images/osterhase.jpg"
+    "image": "/public/images/osterhase.jpg"
   },
   {
     "ArtNr": "205217",
     "Name": "Ja! Schokokeks Zartbitter 125g",
     "Preis": "1,80",
-    "image": "/images/ja-schokokeks-zartbitter-125g.jpg"
+    "image": "/public/images/ja-schokokeks-zartbitter-125g.jpg"
   },
   {
     "ArtNr": "205215",
     "Name": "Ja! Schokokeks Vollmilch 125g",
     "Preis": "1,80",
-    "image": "/images/ja-schokokeks-vollmilch-125g.jpg"
+    "image": "/public/images/ja-schokokeks-vollmilch-125g.jpg"
   },
   {
     "ArtNr": "100410",
     "Name": "H-Milch Rewe Bio 1L 3,8%",
     "Preis": "1,40",
-    "image": "/images/h-milch-rewe-bio-1l-38.jpg"
+    "image": "/public/images/h-milch-rewe-bio-1l-38.jpg"
   },
   {
     "ArtNr": "205210",
     "Name": "Trolli Apfelringe/Gl�hw�rmchen",
     "Preis": "1,60",
-    "image": "/images/trolli-apfelringeglhwrmchen.jpg"
+    "image": "/public/images/trolli-apfelringeglhwrmchen.jpg"
   },
   {
     "ArtNr": "604110",
     "Name": "Toffifee 125g",
     "Preis": "1,80",
-    "image": "/images/toffifee-125g.jpg"
+    "image": "/public/images/toffifee-125g.jpg"
   },
   {
     "ArtNr": "604350",
     "Name": "Focaccia Italiana (K�se Ruccola)",
     "Preis": "3,50",
-    "image": "/images/focaccia-italiana-kse-ruccola.jpg"
+    "image": "/public/images/focaccia-italiana-kse-ruccola.jpg"
   },
   {
     "ArtNr": "603210",
     "Name": "Zutat - Wurst div.",
     "Preis": "0,25",
-    "image": "/images/zutat-wurst-div.jpg"
+    "image": "/public/images/zutat-wurst-div.jpg"
   },
   {
     "ArtNr": "604920",
     "Name": "Wurstsemmel",
     "Preis": "1,20",
-    "image": "/images/wurstsemmel.jpg"
+    "image": "/public/images/wurstsemmel.jpg"
   },
   {
     "ArtNr": "604910",
     "Name": "K�sesemmel",
     "Preis": "1,20",
-    "image": "/images/ksesemmel.jpg"
+    "image": "/public/images/ksesemmel.jpg"
   },
   {
     "ArtNr": "603382",
     "Name": "Zutat - Butter",
     "Preis": "0,30",
-    "image": "/images/zutat-butter.jpg"
+    "image": "/public/images/zutat-butter.jpg"
   },
   {
     "ArtNr": "603386",
     "Name": "Zutat - Laugenstange",
     "Preis": "0,60",
-    "image": "/images/zutat-laugenstange.jpg"
+    "image": "/public/images/zutat-laugenstange.jpg"
   },
   {
     "ArtNr": "603385",
     "Name": "Zutat - Br�tchen",
     "Preis": "0,40",
-    "image": "/images/zutat-brtchen.jpg"
+    "image": "/public/images/zutat-brtchen.jpg"
   },
   {
     "ArtNr": "604900",
     "Name": "H�hnchenschnitzelsemmel",
     "Preis": "2,20",
-    "image": "/images/hhnchenschnitzelsemmel.jpg"
+    "image": "/public/images/hhnchenschnitzelsemmel.jpg"
   },
   {
     "ArtNr": "603379",
     "Name": "Zutat - D�nerbrot / Fladenbrot",
     "Preis": "0,40",
-    "image": "/images/zutat-dnerbrot-fladenbrot.jpg"
+    "image": "/public/images/zutat-dnerbrot-fladenbrot.jpg"
   },
   {
     "ArtNr": "603378",
     "Name": "Zutat - Pesto",
     "Preis": "0,15",
-    "image": "/images/zutat-pesto.jpg"
+    "image": "/public/images/zutat-pesto.jpg"
   },
   {
     "ArtNr": "603377",
     "Name": "Zutat - Salat",
     "Preis": "0,20",
-    "image": "/images/zutat-salat.jpg"
+    "image": "/public/images/zutat-salat.jpg"
   },
   {
     "ArtNr": "603376",
     "Name": "Zutat - Tomate",
     "Preis": "0,20",
-    "image": "/images/zutat-tomate.jpg"
+    "image": "/public/images/zutat-tomate.jpg"
   },
   {
     "ArtNr": "603410",
     "Name": "Zutat - Mozzarella",
     "Preis": "0,20",
-    "image": "/images/zutat-mozzarella.jpg"
+    "image": "/public/images/zutat-mozzarella.jpg"
   },
   {
     "ArtNr": "601533",
     "Name": "Knorr Pasta Snack Pot Tomato & Mozzarella 63g",
     "Preis": "2,00",
-    "image": "/images/knorr-pasta-snack-pot-tomato-mozzarella-63g.jpg"
+    "image": "/public/images/knorr-pasta-snack-pot-tomato-mozzarella-63g.jpg"
   },
   {
     "ArtNr": "601535",
     "Name": "Knorr Pasta Snack Pot Mac & Cheese Jalapeno 62g",
     "Preis": "2,00",
-    "image": "/images/knorr-pasta-snack-pot-mac-cheese-jalapeno-62g.jpg"
+    "image": "/public/images/knorr-pasta-snack-pot-mac-cheese-jalapeno-62g.jpg"
   },
   {
     "ArtNr": "601530",
     "Name": "Knorr Pasta Snack Pot K�se & Kr�uter 59g",
     "Preis": "2,00",
-    "image": "/images/knorr-pasta-snack-pot-kse-kruter-59g.jpg"
+    "image": "/public/images/knorr-pasta-snack-pot-kse-kruter-59g.jpg"
   },
   {
     "ArtNr": "601520",
     "Name": "Knorr Pasta Snack Pot Bolognese 60g",
     "Preis": "2,00",
-    "image": "/images/knorr-pasta-snack-pot-bolognese-60g.jpg"
+    "image": "/public/images/knorr-pasta-snack-pot-bolognese-60g.jpg"
   },
   {
     "ArtNr": "601510",
     "Name": "Knorr Asia Noodles Beef Taste 63g",
     "Preis": "2,00",
-    "image": "/images/knorr-asia-noodles-beef-taste-63g.jpg"
+    "image": "/public/images/knorr-asia-noodles-beef-taste-63g.jpg"
   },
   {
     "ArtNr": "201620",
     "Name": "tic tac fruity mix 18g",
     "Preis": "1,20",
-    "image": "/images/tic-tac-fruity-mix-18g.jpg"
+    "image": "/public/images/tic-tac-fruity-mix-18g.jpg"
   },
   {
     "ArtNr": "201610",
     "Name": "tic tac citrus mix 18g",
     "Preis": "1,20",
-    "image": "/images/tic-tac-citrus-mix-18g.jpg"
+    "image": "/public/images/tic-tac-citrus-mix-18g.jpg"
   },
   {
     "ArtNr": "208600",
     "Name": "M�sli - Nestle versch. Sorten",
     "Preis": "1,00",
-    "image": "/images/msli-nestle-versch-sorten.jpg"
+    "image": "/public/images/msli-nestle-versch-sorten.jpg"
   },
   {
     "ArtNr": "207100",
     "Name": "Ritz Cracker",
     "Preis": "2,00",
-    "image": "/images/ritz-cracker.jpg"
+    "image": "/public/images/ritz-cracker.jpg"
   },
   {
     "ArtNr": "604800",
     "Name": "Crossaint",
     "Preis": "1,00",
-    "image": "/images/crossaint.jpg"
+    "image": "/public/images/crossaint.jpg"
   },
   {
     "ArtNr": "603380",
     "Name": "Zutat - Gurke",
     "Preis": "0,05",
-    "image": "/images/zutat-gurke.jpg"
+    "image": "/public/images/zutat-gurke.jpg"
   },
   {
     "ArtNr": "604700",
     "Name": "Tomaten-Mozzarella Semmel mit Pesto und Balsamico",
     "Preis": "2,20",
-    "image": "/images/tomaten-mozzarella-semmel-mit-pesto-und-balsamico.jpg"
+    "image": "/public/images/tomaten-mozzarella-semmel-mit-pesto-und-balsamico.jpg"
   },
   {
     "ArtNr": "604600",
     "Name": "Nussschnecke",
     "Preis": "1,50",
-    "image": "/images/nussschnecke.jpg"
+    "image": "/public/images/nussschnecke.jpg"
   },
   {
     "ArtNr": "604500",
     "Name": "Focaccia Vegetale (Gem�se)",
     "Preis": "2,90",
-    "image": "/images/focaccia-vegetale-gemse.jpg"
+    "image": "/public/images/focaccia-vegetale-gemse.jpg"
   },
   {
     "ArtNr": "604400",
     "Name": "Focaccia Caprese (Mozzarella,Tomaten,Oliven)",
     "Preis": "2,90",
-    "image": "/images/focaccia-caprese-mozzarellatomatenoliven.jpg"
+    "image": "/public/images/focaccia-caprese-mozzarellatomatenoliven.jpg"
   },
   {
     "ArtNr": "604300",
     "Name": "Focaccia Rustica (Schinken K�se)",
     "Preis": "2,90",
-    "image": "/images/focaccia-rustica-schinken-kse.jpg"
+    "image": "/public/images/focaccia-rustica-schinken-kse.jpg"
   },
   {
     "ArtNr": "603130",
     "Name": "Zutat - Frischk�se",
     "Preis": "0,20",
-    "image": "/images/zutat-frischkse.jpg"
+    "image": "/public/images/zutat-frischkse.jpg"
   },
   {
     "ArtNr": "604200",
     "Name": "Laugenstange - Frischk�se mit Gurke",
     "Preis": "1,20",
-    "image": "/images/laugenstange-frischkse-mit-gurke.jpg"
+    "image": "/public/images/laugenstange-frischkse-mit-gurke.jpg"
   },
   {
     "ArtNr": "208500",
     "Name": "Lebkuchen Herz/Stern/Brez",
     "Preis": "2,50",
-    "image": "/images/lebkuchen-herzsternbrez.jpg"
+    "image": "/public/images/lebkuchen-herzsternbrez.jpg"
   },
   {
     "ArtNr": "208400",
     "Name": "Weihnachtsmann",
     "Preis": "1,00",
-    "image": "/images/weihnachtsmann.jpg"
+    "image": "/public/images/weihnachtsmann.jpg"
   },
   {
     "ArtNr": "604100",
     "Name": "Krapfen",
     "Preis": "1,00",
-    "image": "/images/krapfen.jpg"
+    "image": "/public/images/krapfen.jpg"
   },
   {
     "ArtNr": "603120",
     "Name": "Zutat - Toasty Hahnchen Brust Filet",
     "Preis": "1,50",
-    "image": "/images/zutat-toasty-hahnchen-brust-filet.jpg"
+    "image": "/public/images/zutat-toasty-hahnchen-brust-filet.jpg"
   },
   {
     "ArtNr": "208300",
     "Name": "Lebkuchen Herzen 200g",
     "Preis": "2,50",
-    "image": "/images/lebkuchen-herzen-200g.jpg"
+    "image": "/public/images/lebkuchen-herzen-200g.jpg"
   },
   {
     "ArtNr": "208200",
     "Name": "Domino Stars",
     "Preis": "1,50",
-    "image": "/images/domino-stars.jpg"
+    "image": "/public/images/domino-stars.jpg"
   },
   {
     "ArtNr": "208100",
     "Name": "Gew�rz Spekulatius",
     "Preis": "2,00",
-    "image": "/images/gewrz-spekulatius.jpg"
+    "image": "/public/images/gewrz-spekulatius.jpg"
   },
   {
     "ArtNr": "300150",
     "Name": "Today Tampons 1 Stk",
     "Preis": "0,10",
-    "image": "/images/today-tampons-1-stk.jpg"
+    "image": "/public/images/today-tampons-1-stk.jpg"
   },
   {
     "ArtNr": "300250",
     "Name": "Always Damenbinden Gr��e Maxi 1 Stk.",
     "Preis": "0,20",
-    "image": "/images/always-damenbinden-gre-maxi-1-stk.jpg"
+    "image": "/public/images/always-damenbinden-gre-maxi-1-stk.jpg"
   },
   {
     "ArtNr": "301700",
     "Name": "Share Handcreme Mandel�l & Sandelholz 75ml",
     "Preis": "2,00",
-    "image": "/images/share-handcreme-mandell-sandelholz-75ml.jpg"
+    "image": "/public/images/share-handcreme-mandell-sandelholz-75ml.jpg"
   },
   {
     "ArtNr": "301600",
     "Name": "Nivea Handcreme Intensive Pflege 75ml",
     "Preis": "2,50",
-    "image": "/images/nivea-handcreme-intensive-pflege-75ml.jpg"
+    "image": "/public/images/nivea-handcreme-intensive-pflege-75ml.jpg"
   },
   {
     "ArtNr": "301500",
     "Name": "Alviana Handcreme Soft mit Bio-Aloe Vera 75ml",
     "Preis": "2,50",
-    "image": "/images/alviana-handcreme-soft-mit-bio-aloe-vera-75ml.jpg"
+    "image": "/public/images/alviana-handcreme-soft-mit-bio-aloe-vera-75ml.jpg"
   },
   {
     "ArtNr": "604010",
     "Name": "Wasa Sandwich Pesto",
     "Preis": "1,00",
-    "image": "/images/wasa-sandwich-pesto.jpg"
+    "image": "/public/images/wasa-sandwich-pesto.jpg"
   },
   {
     "ArtNr": "101550",
     "Name": "Adelholzener Apfelschorle 0,5l PET",
     "Preis": "1,20",
-    "image": "/images/adelholzener-apfelschorle-05l-pet.jpg"
+    "image": "/public/images/adelholzener-apfelschorle-05l-pet.jpg"
   },
   {
     "ArtNr": "208000",
     "Name": "Bounty klein 28,5g",
     "Preis": "0,40",
-    "image": "/images/bounty-klein-285g.jpg"
+    "image": "/public/images/bounty-klein-285g.jpg"
   },
   {
     "ArtNr": "207000",
     "Name": "Erdnuss Locken",
     "Preis": "0,80",
-    "image": "/images/erdnuss-locken.jpg"
+    "image": "/public/images/erdnuss-locken.jpg"
   },
   {
     "ArtNr": "701300",
     "Name": "EIS Snickers Eisriegel",
     "Preis": "1,00",
-    "image": "/images/eis-snickers-eisriegel.jpg"
+    "image": "/public/images/eis-snickers-eisriegel.jpg"
   },
   {
     "ArtNr": "701200",
     "Name": "EIS Magnum Double Sunlover",
     "Preis": "1,50",
-    "image": "/images/eis-magnum-double-sunlover.jpg"
+    "image": "/public/images/eis-magnum-double-sunlover.jpg"
   },
   {
     "ArtNr": "401300",
     "Name": "F�cher - verschiedene Farben",
     "Preis": "2,50",
-    "image": "/images/fcher-verschiedene-farben.jpg"
+    "image": "/public/images/fcher-verschiedene-farben.jpg"
   },
   {
     "ArtNr": "401200",
     "Name": "Ventilator - Rouclo USB Tischventilator",
     "Preis": "10,00",
-    "image": "/images/ventilator-rouclo-usb-tischventilator.jpg"
+    "image": "/public/images/ventilator-rouclo-usb-tischventilator.jpg"
   },
   {
     "ArtNr": "603560",
     "Name": "Donut",
     "Preis": "1,00",
-    "image": "/images/donut.jpg"
+    "image": "/public/images/donut.jpg"
   },
   {
     "ArtNr": "206900",
     "Name": "Nippon 200g",
     "Preis": "2,60",
-    "image": "/images/nippon-200g.jpg"
+    "image": "/public/images/nippon-200g.jpg"
   },
   {
     "ArtNr": "206800",
     "Name": "Lion 42g",
     "Preis": "0,80",
-    "image": "/images/lion-42g.jpg"
+    "image": "/public/images/lion-42g.jpg"
   },
   {
     "ArtNr": "603900",
     "Name": "Waffel Lotus Suzy Vanille 28g",
     "Preis": "0,50",
-    "image": "/images/waffel-lotus-suzy-vanille-28g.jpg"
+    "image": "/public/images/waffel-lotus-suzy-vanille-28g.jpg"
   },
   {
     "ArtNr": "201510",
     "Name": "Kaugummi Airwaves Menthol & Eucalyptus",
     "Preis": "0,90",
-    "image": "/images/kaugummi-airwaves-menthol-eucalyptus.jpg"
+    "image": "/public/images/kaugummi-airwaves-menthol-eucalyptus.jpg"
   },
   {
     "ArtNr": "200220",
     "Name": "Pringles Hot & Spicy 40g",
     "Preis": "1,20",
-    "image": "/images/pringles-hot-spicy-40g.jpg"
+    "image": "/public/images/pringles-hot-spicy-40g.jpg"
   },
   {
     "ArtNr": "401100",
     "Name": "Kaffee Filter",
     "Preis": "1,30",
-    "image": "/images/kaffee-filter.jpg"
+    "image": "/public/images/kaffee-filter.jpg"
   },
   {
     "ArtNr": "10350",
     "Name": "REWE to go Smoothie Cassis Brombeer Apfel 250 ml",
     "Preis": "1,50",
-    "image": "/images/rewe-to-go-smoothie-cassis-brombeer-apfel-250-ml.jpg"
+    "image": "/public/images/rewe-to-go-smoothie-cassis-brombeer-apfel-250-ml.jpg"
   },
   {
     "ArtNr": "100340",
     "Name": "REWE to go Ananas Banane Kokos Smoothie 250 ml",
     "Preis": "1,50",
-    "image": "/images/rewe-to-go-ananas-banane-kokos-smoothie-250-ml.jpg"
+    "image": "/public/images/rewe-to-go-ananas-banane-kokos-smoothie-250-ml.jpg"
   },
   {
     "ArtNr": "206700",
     "Name": "Reese�s 2 Peanut Butter Cups 39,5g",
     "Preis": "1,30",
-    "image": "/images/reeses-2-peanut-butter-cups-395g.jpg"
+    "image": "/public/images/reeses-2-peanut-butter-cups-395g.jpg"
   },
   {
     "ArtNr": "206600",
     "Name": "KitKat CLASSIC",
     "Preis": "0,80",
-    "image": "/images/kitkat-classic.jpg"
+    "image": "/public/images/kitkat-classic.jpg"
   },
   {
     "ArtNr": "206500",
     "Name": "Lachgummi 250g",
     "Preis": "1,80",
-    "image": "/images/lachgummi-250g.jpg"
+    "image": "/public/images/lachgummi-250g.jpg"
   },
   {
     "ArtNr": "100800",
     "Name": "Capri Sonne 0,2l Jungle Drink",
     "Preis": "0,60",
-    "image": "/images/capri-sonne-02l-jungle-drink.jpg"
+    "image": "/public/images/capri-sonne-02l-jungle-drink.jpg"
   },
   {
     "ArtNr": "603550",
     "Name": "Sandwich-hei� / H�hnchen/Pute+K�se",
     "Preis": "1,50",
-    "image": "/images/sandwich-hei-hhnchenputekse.jpg"
+    "image": "/public/images/sandwich-hei-hhnchenputekse.jpg"
   },
   {
     "ArtNr": "603110",
     "Name": "Zutat - H�hnchen/Pute",
     "Preis": "0,30",
-    "image": "/images/zutat-hhnchenpute.jpg"
+    "image": "/public/images/zutat-hhnchenpute.jpg"
   },
   {
     "ArtNr": "102200",
     "Name": "REWE Smoothie Erdbeer Banane",
     "Preis": "1,50",
-    "image": "/images/rewe-smoothie-erdbeer-banane.jpg"
+    "image": "/public/images/rewe-smoothie-erdbeer-banane.jpg"
   },
   {
     "ArtNr": "102100",
     "Name": "REWE Smoothie Apfel Mango Maracuja",
     "Preis": "1,50",
-    "image": "/images/rewe-smoothie-apfel-mango-maracuja.jpg"
+    "image": "/public/images/rewe-smoothie-apfel-mango-maracuja.jpg"
   },
   {
     "ArtNr": "603800",
     "Name": "Kinder Pingui",
     "Preis": "0,60",
-    "image": "/images/kinder-pingui.jpg"
+    "image": "/public/images/kinder-pingui.jpg"
   },
   {
     "ArtNr": "603700",
     "Name": "Wasa Sandwich Cheese & French Herbs",
     "Preis": "1,00",
-    "image": "/images/wasa-sandwich-cheese-french-herbs.jpg"
+    "image": "/public/images/wasa-sandwich-cheese-french-herbs.jpg"
   },
   {
     "ArtNr": "603600",
     "Name": "Wasa Sandwich Cheese Tomato & Basil",
     "Preis": "1,00",
-    "image": "/images/wasa-sandwich-cheese-tomato-basil.jpg"
+    "image": "/public/images/wasa-sandwich-cheese-tomato-basil.jpg"
   },
   {
     "ArtNr": "206400",
     "Name": "KuchenMeister Muffin Doubel Choc Vegan 75g",
     "Preis": "1,20",
-    "image": "/images/kuchenmeister-muffin-doubel-choc-vegan-75g.jpg"
+    "image": "/public/images/kuchenmeister-muffin-doubel-choc-vegan-75g.jpg"
   },
   {
     "ArtNr": "206300",
     "Name": "KuchenMeister Marmor- Kuchen 35g",
     "Preis": "0,60",
-    "image": "/images/kuchenmeister-marmor-kuchen-35g.jpg"
+    "image": "/public/images/kuchenmeister-marmor-kuchen-35g.jpg"
   },
   {
     "ArtNr": "603500",
     "Name": "Sandwich-hei� / K�se+K�se",
     "Preis": "1,50",
-    "image": "/images/sandwich-hei-ksekse.jpg"
+    "image": "/public/images/sandwich-hei-ksekse.jpg"
   },
   {
     "ArtNr": "603400",
     "Name": "Sandwich-hei� / Schinken+K�se",
     "Preis": "1,50",
-    "image": "/images/sandwich-hei-schinkenkse.jpg"
+    "image": "/public/images/sandwich-hei-schinkenkse.jpg"
   },
   {
     "ArtNr": "603300",
     "Name": "Zutat - Schinken",
     "Preis": "0,30",
-    "image": "/images/zutat-schinken.jpg"
+    "image": "/public/images/zutat-schinken.jpg"
   },
   {
     "ArtNr": "603200",
     "Name": "Zutat - K�se",
     "Preis": "0,40",
-    "image": "/images/zutat-kse.jpg"
+    "image": "/public/images/zutat-kse.jpg"
   },
   {
     "ArtNr": "603100",
     "Name": "Zutat - Sandwich- Toast",
     "Preis": "0,15",
-    "image": "/images/zutat-sandwich-toast.jpg"
+    "image": "/public/images/zutat-sandwich-toast.jpg"
   },
   {
     "ArtNr": "206200",
     "Name": "BiFi The Original Carazza",
     "Preis": "1,30",
-    "image": "/images/bifi-the-original-carazza.jpg"
+    "image": "/public/images/bifi-the-original-carazza.jpg"
   },
   {
     "ArtNr": "206100",
     "Name": "Lay�s Red Paprika",
     "Preis": "1,20",
-    "image": "/images/lays-red-paprika.jpg"
+    "image": "/public/images/lays-red-paprika.jpg"
   },
   {
     "ArtNr": "206000",
     "Name": "Lay�s Gesalzen",
     "Preis": "1,20",
-    "image": "/images/lays-gesalzen.jpg"
+    "image": "/public/images/lays-gesalzen.jpg"
   },
   {
     "ArtNr": "205900",
     "Name": "Bounty",
     "Preis": "1,20",
-    "image": "/images/bounty.jpg"
+    "image": "/public/images/bounty.jpg"
   },
   {
     "ArtNr": "401000",
     "Name": "REWE Bio R�stkaffee gemahlen 500g",
     "Preis": "7,50",
-    "image": "/images/rewe-bio-rstkaffee-gemahlen-500g.jpg"
+    "image": "/public/images/rewe-bio-rstkaffee-gemahlen-500g.jpg"
   },
   {
     "ArtNr": "205800",
     "Name": "merci Finest Slection Grosse Vielfalt 250g",
     "Preis": "4,50",
-    "image": "/images/merci-finest-slection-grosse-vielfalt-250g.jpg"
+    "image": "/public/images/merci-finest-slection-grosse-vielfalt-250g.jpg"
   },
   {
     "ArtNr": "205700",
     "Name": "Haribo Goldb�ren 100g",
     "Preis": "1,00",
-    "image": "/images/haribo-goldbren-100g.jpg"
+    "image": "/public/images/haribo-goldbren-100g.jpg"
   },
   {
     "ArtNr": "101220",
     "Name": "Weihenstephan Frischer Kakao 0,5 l",
     "Preis": "1,40",
-    "image": "/images/weihenstephan-frischer-kakao-05-l.jpg"
+    "image": "/public/images/weihenstephan-frischer-kakao-05-l.jpg"
   },
   {
     "ArtNr": "205600",
     "Name": "Ballisto Schokoriegel versch. Sorten",
     "Preis": "0,40",
-    "image": "/images/ballisto-schokoriegel-versch-sorten.jpg"
+    "image": "/public/images/ballisto-schokoriegel-versch-sorten.jpg"
   },
   {
     "ArtNr": "205500",
     "Name": "Spekulatius",
     "Preis": "2,00",
-    "image": "/images/spekulatius.jpg"
+    "image": "/public/images/spekulatius.jpg"
   },
   {
     "ArtNr": "205300",
     "Name": "dm Vanille Kipferl",
     "Preis": "2,20",
-    "image": "/images/dm-vanille-kipferl.jpg"
+    "image": "/public/images/dm-vanille-kipferl.jpg"
   },
   {
     "ArtNr": "600555",
     "Name": "Knorr Asia Noodles vegetable taste vegan 65g",
     "Preis": "2,00",
-    "image": "/images/knorr-asia-noodles-vegetable-taste-vegan-65g.jpg"
+    "image": "/public/images/knorr-asia-noodles-vegetable-taste-vegan-65g.jpg"
   },
   {
     "ArtNr": "600552",
     "Name": "Knorr Asia Noodles Chicken 65g",
     "Preis": "2,00",
-    "image": "/images/knorr-asia-noodles-chicken-65g.jpg"
+    "image": "/public/images/knorr-asia-noodles-chicken-65g.jpg"
   },
   {
     "ArtNr": "205200",
     "Name": "Haribo Fruchtgummi Goldb�ren 175g",
     "Preis": "1,60",
-    "image": "/images/haribo-fruchtgummi-goldbren-175g.jpg"
+    "image": "/public/images/haribo-fruchtgummi-goldbren-175g.jpg"
   },
   {
     "ArtNr": "205100",
     "Name": "Center Shock alle Geschm�cker",
     "Preis": "0,10",
-    "image": "/images/center-shock-alle-geschmcker.jpg"
+    "image": "/public/images/center-shock-alle-geschmcker.jpg"
   },
   {
     "ArtNr": "205000",
     "Name": "Griesson Chocolate Mountain Cookies",
     "Preis": "1,80",
-    "image": "/images/griesson-chocolate-mountain-cookies.jpg"
+    "image": "/public/images/griesson-chocolate-mountain-cookies.jpg"
   },
   {
     "ArtNr": "204900",
     "Name": "IBIS Original franz�sische Schokobr�tchen",
     "Preis": "0,50",
-    "image": "/images/ibis-original-franzsische-schokobrtchen.jpg"
+    "image": "/public/images/ibis-original-franzsische-schokobrtchen.jpg"
   },
   {
     "ArtNr": "101900",
     "Name": "Adelholzener Classic 0,5l PET",
     "Preis": "1,00",
-    "image": "/images/adelholzener-classic-05l-pet.jpg"
+    "image": "/public/images/adelholzener-classic-05l-pet.jpg"
   },
   {
     "ArtNr": "204800",
     "Name": "Milchschnitte 28g",
     "Preis": "0,50",
-    "image": "/images/milchschnitte-28g.jpg"
+    "image": "/public/images/milchschnitte-28g.jpg"
   },
   {
     "ArtNr": "204700",
     "Name": "Kuchenmeister Puks Dessertkuchen 62g",
     "Preis": "1,00",
-    "image": "/images/kuchenmeister-puks-dessertkuchen-62g.jpg"
+    "image": "/public/images/kuchenmeister-puks-dessertkuchen-62g.jpg"
   },
   {
     "ArtNr": "204600",
     "Name": "M&M Crispy 36g",
     "Preis": "0,80",
-    "image": "/images/mm-crispy-36g.jpg"
+    "image": "/public/images/mm-crispy-36g.jpg"
   },
   {
     "ArtNr": "601400",
     "Name": "Berchtesgadener Land Frucht Knusper Erdbeere",
     "Preis": "0,10",
-    "image": "/images/berchtesgadener-land-frucht-knusper-erdbeere.jpg"
+    "image": "/public/images/berchtesgadener-land-frucht-knusper-erdbeere.jpg"
   },
   {
     "ArtNr": "601300",
     "Name": "Berchtesgadener Land Vanille Knusper",
     "Preis": "1,00",
-    "image": "/images/berchtesgadener-land-vanille-knusper.jpg"
+    "image": "/public/images/berchtesgadener-land-vanille-knusper.jpg"
   },
   {
     "ArtNr": "101700",
     "Name": "Adelholzener sanft 0,5l PET",
     "Preis": "1,00",
-    "image": "/images/adelholzener-sanft-05l-pet.jpg"
+    "image": "/public/images/adelholzener-sanft-05l-pet.jpg"
   },
   {
     "ArtNr": "101210",
     "Name": "Kaffeegetr�nk Espresso",
     "Preis": "1,00",
-    "image": "/images/kaffeegetrnk-espresso.jpg"
+    "image": "/public/images/kaffeegetrnk-espresso.jpg"
   },
   {
     "ArtNr": "701100",
     "Name": "EIS  Ice Pops 1 St�ck",
     "Preis": "0,30",
-    "image": "/images/eis-ice-pops-1-stck.jpg"
+    "image": "/public/images/eis-ice-pops-1-stck.jpg"
   },
   {
     "ArtNr": "101500",
     "Name": "Adelholzener Multivitamin 0,5l",
     "Preis": "1,20",
-    "image": "/images/adelholzener-multivitamin-05l.jpg"
+    "image": "/public/images/adelholzener-multivitamin-05l.jpg"
   },
   {
     "ArtNr": "101400",
     "Name": "Adelholzener Mango 0,5l",
     "Preis": "1,20",
-    "image": "/images/adelholzener-mango-05l.jpg"
+    "image": "/public/images/adelholzener-mango-05l.jpg"
   },
   {
     "ArtNr": "101300",
     "Name": "Adelholzener Lemon 0,5l",
     "Preis": "1,20",
-    "image": "/images/adelholzener-lemon-05l.jpg"
+    "image": "/public/images/adelholzener-lemon-05l.jpg"
   },
   {
     "ArtNr": "101200",
     "Name": "Kaffeegetr�nk Latte Macchiato",
     "Preis": "1,00",
-    "image": "/images/kaffeegetrnk-latte-macchiato.jpg"
+    "image": "/public/images/kaffeegetrnk-latte-macchiato.jpg"
   },
   {
     "ArtNr": "101100",
     "Name": "Kaffeegetr�nk Cappuccino",
     "Preis": "1,00",
-    "image": "/images/kaffeegetrnk-cappuccino.jpg"
+    "image": "/public/images/kaffeegetrnk-cappuccino.jpg"
   },
   {
     "ArtNr": "301400",
     "Name": "Balea Wasserspray Aqua, 150 ml",
     "Preis": "1,40",
-    "image": "/images/balea-wasserspray-aqua-150-ml.jpg"
+    "image": "/public/images/balea-wasserspray-aqua-150-ml.jpg"
   },
   {
     "ArtNr": "301300",
     "Name": "o.b. Tampons Pro Comfort Super, 1 PG",
     "Preis": "0,20",
-    "image": "/images/ob-tampons-pro-comfort-super-1-pg.jpg"
+    "image": "/public/images/ob-tampons-pro-comfort-super-1-pg.jpg"
   },
   {
     "ArtNr": "301200",
     "Name": "Balea Deospray Sensitiv, 200ml",
     "Preis": "1,20",
-    "image": "/images/balea-deospray-sensitiv-200ml.jpg"
+    "image": "/public/images/balea-deospray-sensitiv-200ml.jpg"
   },
   {
     "ArtNr": "301100",
     "Name": "Balea MEN Antitranspirent Deospray extra dry 200ml",
     "Preis": "1,20",
-    "image": "/images/balea-men-antitranspirent-deospray-extra-dry-200ml.jpg"
+    "image": "/public/images/balea-men-antitranspirent-deospray-extra-dry-200ml.jpg"
   },
   {
     "ArtNr": "204500",
     "Name": "Leibniz MINI Choco Keks 125g",
     "Preis": "2,30",
-    "image": "/images/leibniz-mini-choco-keks-125g.jpg"
+    "image": "/public/images/leibniz-mini-choco-keks-125g.jpg"
   },
   {
     "ArtNr": "204400",
     "Name": "Ja! Salzstangen mit Meersalz 250g",
     "Preis": "1,20",
-    "image": "/images/ja-salzstangen-mit-meersalz-250g.jpg"
+    "image": "/public/images/ja-salzstangen-mit-meersalz-250g.jpg"
   },
   {
     "ArtNr": "701000",
     "Name": "EIS Split Cuja Maja / Fruit Surfer",
     "Preis": "1,20",
-    "image": "/images/eis-split-cuja-maja-fruit-surfer.jpg"
+    "image": "/public/images/eis-split-cuja-maja-fruit-surfer.jpg"
   },
   {
     "ArtNr": "700900",
     "Name": "EIS Flutschfinger",
     "Preis": "1,00",
-    "image": "/images/eis-flutschfinger.jpg"
+    "image": "/public/images/eis-flutschfinger.jpg"
   },
   {
     "ArtNr": "700800",
     "Name": "EIS Big Sandwich Sch�ller",
     "Preis": "1,20",
-    "image": "/images/eis-big-sandwich-schller.jpg"
+    "image": "/public/images/eis-big-sandwich-schller.jpg"
   },
   {
     "ArtNr": "700700",
     "Name": "EIS Magnum Mandel Almond",
     "Preis": "1,50",
-    "image": "/images/eis-magnum-mandel-almond.jpg"
+    "image": "/public/images/eis-magnum-mandel-almond.jpg"
   },
   {
     "ArtNr": "700600",
     "Name": "EIS Magnum Classic",
     "Preis": "1,50",
-    "image": "/images/eis-magnum-classic.jpg"
+    "image": "/public/images/eis-magnum-classic.jpg"
   },
   {
     "ArtNr": "700500",
     "Name": "EIS Kaktus",
     "Preis": "1,00",
-    "image": "/images/eis-kaktus.jpg"
+    "image": "/public/images/eis-kaktus.jpg"
   },
   {
     "ArtNr": "700400",
     "Name": "EIS Eiskonfekt",
     "Preis": "1,20",
-    "image": "/images/eis-eiskonfekt.jpg"
+    "image": "/public/images/eis-eiskonfekt.jpg"
   },
   {
     "ArtNr": "700300",
     "Name": "EIS ja! Sandwich Eis Classic 8x90ml",
     "Preis": "1,00",
-    "image": "/images/eis-ja-sandwich-eis-classic-8x90ml.jpg"
+    "image": "/public/images/eis-ja-sandwich-eis-classic-8x90ml.jpg"
   },
   {
     "ArtNr": "700200",
     "Name": "EIS Cola&Eis Calippo",
     "Preis": "1,00",
-    "image": "/images/eis-colaeis-calippo.jpg"
+    "image": "/public/images/eis-colaeis-calippo.jpg"
   },
   {
     "ArtNr": "700100",
     "Name": "EIS Capri",
     "Preis": "1,00",
-    "image": "/images/eis-capri.jpg"
+    "image": "/public/images/eis-capri.jpg"
   },
   {
     "ArtNr": "700000",
     "Name": "EIS Cornetto Classico",
     "Preis": "1,20",
-    "image": "/images/eis-cornetto-classico.jpg"
+    "image": "/public/images/eis-cornetto-classico.jpg"
   },
   {
     "ArtNr": "601200",
     "Name": "Exquisa K�sekuchen Snack",
     "Preis": "1,50",
-    "image": "/images/exquisa-ksekuchen-snack.jpg"
+    "image": "/public/images/exquisa-ksekuchen-snack.jpg"
   },
   {
     "ArtNr": "601100",
     "Name": "K�selaugenstange",
     "Preis": "1,00",
-    "image": "/images/kselaugenstange.jpg"
+    "image": "/public/images/kselaugenstange.jpg"
   },
   {
     "ArtNr": "100900",
     "Name": "Capri Sonne 0,2l Monster Alarm",
     "Preis": "0,60",
-    "image": "/images/capri-sonne-02l-monster-alarm.jpg"
+    "image": "/public/images/capri-sonne-02l-monster-alarm.jpg"
   },
   {
     "ArtNr": "601000",
     "Name": "K�sebrezen mit Schinken",
     "Preis": "1,60",
-    "image": "/images/ksebrezen-mit-schinken.jpg"
+    "image": "/public/images/ksebrezen-mit-schinken.jpg"
   },
   {
     "ArtNr": "600900",
     "Name": "Butterlaugenstange",
     "Preis": "1,00",
-    "image": "/images/butterlaugenstange.jpg"
+    "image": "/public/images/butterlaugenstange.jpg"
   },
   {
     "ArtNr": "200510",
     "Name": "NicNac's 35g",
     "Preis": "1,00",
-    "image": "/images/nicnacs-35g.jpg"
+    "image": "/public/images/nicnacs-35g.jpg"
   },
   {
     "ArtNr": "400700",
     "Name": "Ja! Servietten 100 St�ck",
     "Preis": "0,00",
-    "image": "/images/ja-servietten-100-stck.jpg"
+    "image": "/public/images/ja-servietten-100-stck.jpg"
   },
   {
     "ArtNr": "204300",
     "Name": "Nutella Sticks",
     "Preis": "1,50",
-    "image": "/images/nutella-sticks.jpg"
+    "image": "/public/images/nutella-sticks.jpg"
   },
   {
     "ArtNr": "204200",
     "Name": "Prinzen Rolle Doppelkeks Minis",
     "Preis": "0,50",
-    "image": "/images/prinzen-rolle-doppelkeks-minis.jpg"
+    "image": "/public/images/prinzen-rolle-doppelkeks-minis.jpg"
   },
   {
     "ArtNr": "200210",
     "Name": "Pringles Sour Cream & Onion 40g",
     "Preis": "1,20",
-    "image": "/images/pringles-sour-cream-onion-40g.jpg"
+    "image": "/public/images/pringles-sour-cream-onion-40g.jpg"
   },
   {
     "ArtNr": "204000",
     "Name": "Katjes Peace & Love vegan 200 g",
     "Preis": "1,40",
-    "image": "/images/katjes-peace-love-vegan-200-g.jpg"
+    "image": "/public/images/katjes-peace-love-vegan-200-g.jpg"
   },
   {
     "ArtNr": "100700",
     "Name": "Capri Sonne 0,2l Safari Fruits",
     "Preis": "0,60",
-    "image": "/images/capri-sonne-02l-safari-fruits.jpg"
+    "image": "/public/images/capri-sonne-02l-safari-fruits.jpg"
   },
   {
     "ArtNr": "203900",
     "Name": "M&M Peanut 45g",
     "Preis": "0,80",
-    "image": "/images/mm-peanut-45g.jpg"
+    "image": "/public/images/mm-peanut-45g.jpg"
   },
   {
     "ArtNr": "400600",
     "Name": "L�ffel",
     "Preis": "0,00",
-    "image": "/images/lffel.jpg"
+    "image": "/public/images/lffel.jpg"
   },
   {
     "ArtNr": "203800",
     "Name": "Chupa Chups Lutscher",
     "Preis": "0,30",
-    "image": "/images/chupa-chups-lutscher.jpg"
+    "image": "/public/images/chupa-chups-lutscher.jpg"
   },
   {
     "ArtNr": "203600",
     "Name": "kinder Country",
     "Preis": "0,40",
-    "image": "/images/kinder-country.jpg"
+    "image": "/public/images/kinder-country.jpg"
   },
   {
     "ArtNr": "203500",
     "Name": "PiCK UP! Original",
     "Preis": "0,60",
-    "image": "/images/pick-up-original.jpg"
+    "image": "/public/images/pick-up-original.jpg"
   },
   {
     "ArtNr": "203400",
     "Name": "kinder Bueno",
     "Preis": "0,50",
-    "image": "/images/kinder-bueno.jpg"
+    "image": "/public/images/kinder-bueno.jpg"
   },
   {
     "ArtNr": "101015",
     "Name": "Haferdrink Oatly 0,5L",
     "Preis": "1,80",
-    "image": "/images/haferdrink-oatly-05l.jpg"
+    "image": "/public/images/haferdrink-oatly-05l.jpg"
   },
   {
     "ArtNr": "203300",
     "Name": "kinder Riegel",
     "Preis": "0,40",
-    "image": "/images/kinder-riegel.jpg"
+    "image": "/public/images/kinder-riegel.jpg"
   },
   {
     "ArtNr": "203200",
     "Name": "Giotto Haselnu� 38,7g",
     "Preis": "1,00",
-    "image": "/images/giotto-haselnu-387g.jpg"
+    "image": "/public/images/giotto-haselnu-387g.jpg"
   },
   {
     "ArtNr": "203100",
     "Name": "Bahlsen Chokini",
     "Preis": "3,50",
-    "image": "/images/bahlsen-chokini.jpg"
+    "image": "/public/images/bahlsen-chokini.jpg"
   },
   {
     "ArtNr": "100320",
     "Name": "Capri Sonne 0,2l Orange",
     "Preis": "0,60",
-    "image": "/images/capri-sonne-02l-orange.jpg"
+    "image": "/public/images/capri-sonne-02l-orange.jpg"
   },
   {
     "ArtNr": "100310",
     "Name": "Capri Sonne 0,2l Kirsch",
     "Preis": "0,60",
-    "image": "/images/capri-sonne-02l-kirsch.jpg"
+    "image": "/public/images/capri-sonne-02l-kirsch.jpg"
   },
   {
     "ArtNr": "203700",
     "Name": "REWE Bio Reiswaffeln Zartbitter 100g",
     "Preis": "1,80",
-    "image": "/images/rewe-bio-reiswaffeln-zartbitter-100g.jpg"
+    "image": "/public/images/rewe-bio-reiswaffeln-zartbitter-100g.jpg"
   },
   {
     "ArtNr": "400400",
     "Name": "Tee Me�mer Wintertraum Zimtstern-Orange",
     "Preis": "0,20",
-    "image": "/images/tee-memer-wintertraum-zimtstern-orange.jpg"
+    "image": "/public/images/tee-memer-wintertraum-zimtstern-orange.jpg"
   },
   {
     "ArtNr": "600500",
     "Name": "Erasco Heisse Tasse Tomatencreme 150ml",
     "Preis": "0,50",
-    "image": "/images/erasco-heisse-tasse-tomatencreme-150ml.jpg"
+    "image": "/public/images/erasco-heisse-tasse-tomatencreme-150ml.jpg"
   },
   {
     "ArtNr": "300500",
     "Name": "Impresan Handdesinfektionsgel, Reisegr��e, 50�ml",
     "Preis": "1,50",
-    "image": "/images/impresan-handdesinfektionsgel-reisegre-50ml.jpg"
+    "image": "/public/images/impresan-handdesinfektionsgel-reisegre-50ml.jpg"
   },
   {
     "ArtNr": "300900",
     "Name": "Balea Handcreme Sensitive, 100�ml",
     "Preis": "0,90",
-    "image": "/images/balea-handcreme-sensitive-100ml.jpg"
+    "image": "/public/images/balea-handcreme-sensitive-100ml.jpg"
   },
   {
     "ArtNr": "300800",
     "Name": "Balea Deo Roll-on Sensitive, 50�ml",
     "Preis": "0,70",
-    "image": "/images/balea-deo-roll-on-sensitive-50ml.jpg"
+    "image": "/public/images/balea-deo-roll-on-sensitive-50ml.jpg"
   },
   {
     "ArtNr": "202900",
     "Name": "Ricola Original Kr�uter 50g",
     "Preis": "2,20",
-    "image": "/images/ricola-original-kruter-50g.jpg"
+    "image": "/public/images/ricola-original-kruter-50g.jpg"
   },
   {
     "ArtNr": "300600",
     "Name": "Tempo Taschent�cher",
     "Preis": "0,20",
-    "image": "/images/tempo-taschentcher.jpg"
+    "image": "/public/images/tempo-taschentcher.jpg"
   },
   {
     "ArtNr": "202800",
     "Name": "Ricola Holunderbl�ten 50g",
     "Preis": "2,20",
-    "image": "/images/ricola-holunderblten-50g.jpg"
+    "image": "/public/images/ricola-holunderblten-50g.jpg"
   },
   {
     "ArtNr": "202600",
     "Name": "Leibniz Butterkeks Choco Vollmilch 125g",
     "Preis": "3,00",
-    "image": "/images/leibniz-butterkeks-choco-vollmilch-125g.jpg"
+    "image": "/public/images/leibniz-butterkeks-choco-vollmilch-125g.jpg"
   },
   {
     "ArtNr": "201300",
     "Name": "hanuta Haselnuss-Schnitten",
     "Preis": "0,40",
-    "image": "/images/hanuta-haselnuss-schnitten.jpg"
+    "image": "/public/images/hanuta-haselnuss-schnitten.jpg"
   },
   {
     "ArtNr": "201000",
     "Name": "Studentenfutter 50g",
     "Preis": "1,00",
-    "image": "/images/studentenfutter-50g.jpg"
+    "image": "/public/images/studentenfutter-50g.jpg"
   },
   {
     "ArtNr": "600400",
     "Name": "Maggi 5 Minuten Terine Spaghetti in Tomaten Sauce 55g",
     "Preis": "1,80",
-    "image": "/images/maggi-5-minuten-terine-spaghetti-in-tomaten-sauce-55g.jpg"
+    "image": "/public/images/maggi-5-minuten-terine-spaghetti-in-tomaten-sauce-55g.jpg"
   },
   {
     "ArtNr": "600300",
     "Name": "Maggi 5 Minuten Terrine Nudeln in Tomaten-Mozzarella Sauce 55g",
     "Preis": "1,80",
-    "image": "/images/maggi-5-minuten-terrine-nudeln-in-tomaten-mozzarella-sauce-55g.jpg"
+    "image": "/public/images/maggi-5-minuten-terrine-nudeln-in-tomaten-mozzarella-sauce-55g.jpg"
   },
   {
     "ArtNr": "203000",
     "Name": "Oreo Cookies Original 154g",
     "Preis": "1,80",
-    "image": "/images/oreo-cookies-original-154g.jpg"
+    "image": "/public/images/oreo-cookies-original-154g.jpg"
   },
   {
     "ArtNr": "600200",
     "Name": "Bio Joghurt verschiedene Sorten 150g",
     "Preis": "0,80",
-    "image": "/images/bio-joghurt-verschiedene-sorten-150g.jpg"
+    "image": "/public/images/bio-joghurt-verschiedene-sorten-150g.jpg"
   },
   {
     "ArtNr": "301000",
     "Name": "Balea MED Handcreme hautneutral mit Allantoin, 100�ml",
     "Preis": "1,20",
-    "image": "/images/balea-med-handcreme-hautneutral-mit-allantoin-100ml.jpg"
+    "image": "/public/images/balea-med-handcreme-hautneutral-mit-allantoin-100ml.jpg"
   },
   {
     "ArtNr": "400300",
     "Name": "Tee Me�mer Himmelszauber Winterpunsch-Mandel",
     "Preis": "0,20",
-    "image": "/images/tee-memer-himmelszauber-winterpunsch-mandel.jpg"
+    "image": "/public/images/tee-memer-himmelszauber-winterpunsch-mandel.jpg"
   },
   {
     "ArtNr": "300100",
     "Name": "JessaTampons 1 PG",
     "Preis": "0,10",
-    "image": "/images/jessatampons-1-pg.jpg"
+    "image": "/public/images/jessatampons-1-pg.jpg"
   },
   {
     "ArtNr": "300700",
     "Name": "Balea MEN Antitranspirant Deo Roll-on fresh, 50�ml",
     "Preis": "0,70",
-    "image": "/images/balea-men-antitranspirant-deo-roll-on-fresh-50ml.jpg"
+    "image": "/public/images/balea-men-antitranspirant-deo-roll-on-fresh-50ml.jpg"
   },
   {
     "ArtNr": "300400",
     "Name": "Denk mit - Desinfektionsmittel klein 100 ml",
     "Preis": "1,20",
-    "image": "/images/denk-mit-desinfektionsmittel-klein-100-ml.jpg"
+    "image": "/public/images/denk-mit-desinfektionsmittel-klein-100-ml.jpg"
   },
   {
     "ArtNr": "300300",
     "Name": "Labello Lippenpflege Original, 4,8 g",
     "Preis": "2,20",
-    "image": "/images/labello-lippenpflege-original-48-g.jpg"
+    "image": "/public/images/labello-lippenpflege-original-48-g.jpg"
   },
   {
     "ArtNr": "601222",
     "Name": "Bio Joghurt mild 150g",
     "Preis": "0,60",
-    "image": "/images/bio-joghurt-mild-150g.jpg"
+    "image": "/public/images/bio-joghurt-mild-150g.jpg"
   },
   {
     "ArtNr": "600600",
     "Name": "MyM�sli - alle Sorten",
     "Preis": "2,00",
-    "image": "/images/mymsli-alle-sorten.jpg"
+    "image": "/public/images/mymsli-alle-sorten.jpg"
   },
   {
     "ArtNr": "600700",
     "Name": "Maggi 5 Minuten Terine Kartoffelp�re mit Erbsen und M�hren",
     "Preis": "1,80",
-    "image": "/images/maggi-5-minuten-terine-kartoffelpre-mit-erbsen-und-mhren.jpg"
+    "image": "/public/images/maggi-5-minuten-terine-kartoffelpre-mit-erbsen-und-mhren.jpg"
   },
   {
     "ArtNr": "600800",
     "Name": "Maggi 5 Minuten Terine Nudeln mit Waldpilz",
     "Preis": "1,80",
-    "image": "/images/maggi-5-minuten-terine-nudeln-mit-waldpilz.jpg"
+    "image": "/public/images/maggi-5-minuten-terine-nudeln-mit-waldpilz.jpg"
   },
   {
     "ArtNr": "202210",
     "Name": "Tuc Cracker Original 100g",
     "Preis": "1,50",
-    "image": "/images/tuc-cracker-original-100g.jpg"
+    "image": "/public/images/tuc-cracker-original-100g.jpg"
   },
   {
     "ArtNr": "202500",
     "Name": "Leibniz Butterkeks Choco Edelherb 125g",
     "Preis": "3,00",
-    "image": "/images/leibniz-butterkeks-choco-edelherb-125g.jpg"
+    "image": "/public/images/leibniz-butterkeks-choco-edelherb-125g.jpg"
   },
   {
     "ArtNr": "202400",
     "Name": "Ritter Sport Mini",
     "Preis": "0,30",
-    "image": "/images/ritter-sport-mini.jpg"
+    "image": "/public/images/ritter-sport-mini.jpg"
   },
   {
     "ArtNr": "202300",
     "Name": "Dextro Energy W�rfel Zitrone",
     "Preis": "1,00",
-    "image": "/images/dextro-energy-wrfel-zitrone.jpg"
+    "image": "/public/images/dextro-energy-wrfel-zitrone.jpg"
   },
   {
     "ArtNr": "202200",
     "Name": "REWE Bio Reiswaffeln glutenfrei 100g",
     "Preis": "1,00",
-    "image": "/images/rewe-bio-reiswaffeln-glutenfrei-100g.jpg"
+    "image": "/public/images/rewe-bio-reiswaffeln-glutenfrei-100g.jpg"
   },
   {
     "ArtNr": "201900",
     "Name": "Corny Riegel Schoko 25g",
     "Preis": "0,50",
-    "image": "/images/corny-riegel-schoko-25g.jpg"
+    "image": "/public/images/corny-riegel-schoko-25g.jpg"
   },
   {
     "ArtNr": "300200",
     "Name": "Jessa Maxi-Binden Classic Lang,1 St.",
     "Preis": "0,10",
-    "image": "/images/jessa-maxi-binden-classic-lang1-st.jpg"
+    "image": "/public/images/jessa-maxi-binden-classic-lang1-st.jpg"
   },
   {
     "ArtNr": "500300",
     "Name": "Apfel",
     "Preis": "0,50",
-    "image": "/images/apfel.jpg"
+    "image": "/public/images/apfel.jpg"
   },
   {
     "ArtNr": "500200",
     "Name": "Banane",
     "Preis": "0,50",
-    "image": "/images/banane.jpg"
+    "image": "/public/images/banane.jpg"
   },
   {
     "ArtNr": "500100",
     "Name": "Birnen",
     "Preis": "0,43",
-    "image": "/images/birnen.jpg"
+    "image": "/public/images/birnen.jpg"
   },
   {
     "ArtNr": "400200",
     "Name": "Tee Me�mer T�rkischer Apfel-Feige",
     "Preis": "0,20",
-    "image": "/images/tee-memer-trkischer-apfel-feige.jpg"
+    "image": "/public/images/tee-memer-trkischer-apfel-feige.jpg"
   },
   {
     "ArtNr": "400800",
     "Name": "Ja! Butterbrot T�ten 100 St�ck",
     "Preis": "0,00",
-    "image": "/images/ja-butterbrot-tten-100-stck.jpg"
+    "image": "/public/images/ja-butterbrot-tten-100-stck.jpg"
   },
   {
     "ArtNr": "400500",
     "Name": "Brillenputz�cher 2 Stk",
     "Preis": "0,20",
-    "image": "/images/brillenputzcher-2-stk.jpg"
+    "image": "/public/images/brillenputzcher-2-stk.jpg"
   },
   {
     "ArtNr": "400100",
     "Name": "Ohropax Ohrst�psel Color, 8 St",
     "Preis": "3,50",
-    "image": "/images/ohropax-ohrstpsel-color-8-st.jpg"
+    "image": "/public/images/ohropax-ohrstpsel-color-8-st.jpg"
   },
   {
     "ArtNr": "202100",
     "Name": "Corny Free M�sliriegel Wei�e Schokolade 20g",
     "Preis": "0,50",
-    "image": "/images/corny-free-msliriegel-weie-schokolade-20g.jpg"
+    "image": "/public/images/corny-free-msliriegel-weie-schokolade-20g.jpg"
   },
   {
     "ArtNr": "202000",
     "Name": "Corny Schoko-Banane 25g",
     "Preis": "0,50",
-    "image": "/images/corny-schoko-banane-25g.jpg"
+    "image": "/public/images/corny-schoko-banane-25g.jpg"
   },
   {
     "ArtNr": "201500",
     "Name": "Kaugummi Airwaves Cool Cassis",
     "Preis": "0,90",
-    "image": "/images/kaugummi-airwaves-cool-cassis.jpg"
+    "image": "/public/images/kaugummi-airwaves-cool-cassis.jpg"
   },
   {
     "ArtNr": "201700",
     "Name": "tic tac fresh orange 18g",
     "Preis": "1,20",
-    "image": "/images/tic-tac-fresh-orange-18g.jpg"
+    "image": "/public/images/tic-tac-fresh-orange-18g.jpg"
   },
   {
     "ArtNr": "201600",
     "Name": "tic tac fresh mint 18g",
     "Preis": "1,20",
-    "image": "/images/tic-tac-fresh-mint-18g.jpg"
+    "image": "/public/images/tic-tac-fresh-mint-18g.jpg"
   },
   {
     "ArtNr": "201100",
     "Name": "Duplo,20g",
     "Preis": "0,40",
-    "image": "/images/duplo20g.jpg"
+    "image": "/public/images/duplo20g.jpg"
   },
   {
     "ArtNr": "201200",
     "Name": "Erdn�sse ger�stet & gesalzen 50g",
     "Preis": "1,00",
-    "image": "/images/erdnsse-gerstet-gesalzen-50g.jpg"
+    "image": "/public/images/erdnsse-gerstet-gesalzen-50g.jpg"
   },
   {
     "ArtNr": "200800",
     "Name": "Knoppers",
     "Preis": "0,40",
-    "image": "/images/knoppers.jpg"
+    "image": "/public/images/knoppers.jpg"
   },
   {
     "ArtNr": "200900",
     "Name": "Twix Schokoriegel 50g",
     "Preis": "0,70",
-    "image": "/images/twix-schokoriegel-50g.jpg"
+    "image": "/public/images/twix-schokoriegel-50g.jpg"
   },
   {
     "ArtNr": "200600",
     "Name": "Snickers 50g",
     "Preis": "0,70",
-    "image": "/images/snickers-50g.jpg"
+    "image": "/public/images/snickers-50g.jpg"
   },
   {
     "ArtNr": "200700",
     "Name": "Mars Schokoriegel 45g",
     "Preis": "0,70",
-    "image": "/images/mars-schokoriegel-45g.jpg"
+    "image": "/public/images/mars-schokoriegel-45g.jpg"
   },
   {
     "ArtNr": "200400",
     "Name": "Haribo Goldb�ren 75g",
     "Preis": "0,90",
-    "image": "/images/haribo-goldbren-75g.jpg"
+    "image": "/public/images/haribo-goldbren-75g.jpg"
   },
   {
     "ArtNr": "200200",
     "Name": "Pringles Orginal 40g",
     "Preis": "1,20",
-    "image": "/images/pringles-orginal-40g.jpg"
+    "image": "/public/images/pringles-orginal-40g.jpg"
   },
   {
     "ArtNr": "200100",
     "Name": "funny-frisch Chipsfrisch ungarisch 40g",
     "Preis": "1,10",
-    "image": "/images/funny-frisch-chipsfrisch-ungarisch-40g.jpg"
+    "image": "/public/images/funny-frisch-chipsfrisch-ungarisch-40g.jpg"
   },
   {
     "ArtNr": "100500",
     "Name": "Paulaner Spezi 0,5l",
     "Preis": "1,20",
-    "image": "/images/paulaner-spezi-05l.jpg"
+    "image": "/public/images/paulaner-spezi-05l.jpg"
   },
   {
     "ArtNr": "101010",
     "Name": "H-Milch 0,5l Weihenstephan",
     "Preis": "1,30",
-    "image": "/images/h-milch-05l-weihenstephan.jpg"
+    "image": "/public/images/h-milch-05l-weihenstephan.jpg"
   },
   {
     "ArtNr": "100300",
     "Name": "Capri Sonne 0,2l Multivitamin",
     "Preis": "0,60",
-    "image": "/images/capri-sonne-02l-multivitamin.jpg"
+    "image": "/public/images/capri-sonne-02l-multivitamin.jpg"
   },
   {
     "ArtNr": "100200",
     "Name": "fuzetea Schwarzer Tee Zitrone 400ml",
     "Preis": "1,60",
-    "image": "/images/fuzetea-schwarzer-tee-zitrone-400ml.jpg"
+    "image": "/public/images/fuzetea-schwarzer-tee-zitrone-400ml.jpg"
   },
   {
     "ArtNr": "100100",
     "Name": "fuzetea Schwarzer Tee Pfirsich 400ml",
     "Preis": "1,60",
-    "image": "/images/fuzetea-schwarzer-tee-pfirsich-400ml.jpg"
+    "image": "/public/images/fuzetea-schwarzer-tee-pfirsich-400ml.jpg"
   }
 ]
