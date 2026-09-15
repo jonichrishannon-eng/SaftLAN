@@ -13,7 +13,7 @@ import Layout from '../layouts/Layout.astro';
         <div class="absolute -top-10 -right-10 w-32 h-32 bg-pink-500/10 blur-3xl rounded-full"></div>
 
         <p class="text-neutral-400 mb-6 text-sm">
-          Enter your GitHub Personal Access Token to sync products from the showcase repository and automatically fetch missing images from OpenFoodFacts directly from your browser. (Note: Sync may pause to respect API rate limits).
+          Enter your GitHub Personal Access Token to sync products from the showcase repository and automatically fetch missing images from REWE directly from your browser. (Note: Sync may pause to respect API rate limits).
         </p>
 
         <form
@@ -200,7 +200,7 @@ import Layout from '../layouts/Layout.astro';
         const cooldownIfNeeded = async () => {
           apiCalls++;
           if (apiCalls >= 10) {
-            log('OpenFoodFacts API Rate Limit approaching (10 calls). Initiating 60-second cooldown...', true);
+            log('REWE API Rate Limit approaching (10 calls). Initiating 60-second cooldown...', true);
             for(let i=60; i>0; i--) {
               if (i % 10 === 0 || i <= 5) log(`Resuming in ${i} seconds...`);
               await new Promise(r => setTimeout(r, 1000));
@@ -228,12 +228,17 @@ import Layout from '../layouts/Layout.astro';
 
             if (!imageExists) {
               await cooldownIfNeeded();
-              log(`Searching OpenFoodFacts for: ${prod.Name}`);
-              const offRes = await fetch(`https://world.openfoodfacts.org/cgi/search.pl?search_terms=${encodeURIComponent(prod.Name)}&search_simple=1&action=process&json=1&page_size=10`);
+              log(`Searching REWE for: ${prod.Name}`);
+
+              // Proxying the REWE API request to avoid CORS issues
+              const searchUrl = `https://www.rewe.de/shop/api/products?search=${encodeURIComponent(prod.Name)}`;
+              const proxiedSearchUrl = `https://corsproxy.io/?${encodeURIComponent(searchUrl)}`;
+
+              const offRes = await fetch(proxiedSearchUrl);
 
               if (offRes.ok) {
                 const offData = await offRes.json();
-                if (offData.products && offData.products.length > 0) {
+                if (offData._embedded && offData._embedded.articles && offData._embedded.articles.length > 0) {
 
                   let bestMatchScore = 0;
                   let bestMatchImg = null;
@@ -241,8 +246,8 @@ import Layout from '../layouts/Layout.astro';
                   const cleanTarget = cleanString(prod.Name);
                   const targetLower = prod.Name.toLowerCase();
 
-                  for (const candidate of offData.products) {
-                    const offName = candidate.product_name || candidate.generic_name || '';
+                  for (const candidate of offData._embedded.articles) {
+                    const offName = candidate.productName || '';
                     if (!offName) continue;
 
                     const cleanOFF = cleanString(offName);
@@ -259,18 +264,21 @@ import Layout from '../layouts/Layout.astro';
                     const maxLen = Math.max(cleanOFF.length, cleanTarget.length);
                     const levScore = maxLen > 0 ? (1 - lev / maxLen) * 100 : 0;
 
-                    const currentScore = (wordScore * 0.78) + (levScore * 0.22);
+                    const currentScore = (wordScore * 0.70) + (levScore * 0.30);
 
-                    const qMismatch = candidate.quantity ? hasQuantityMismatch(prod.Name, candidate.quantity) : false;
+                    // Basic quantity mismatch check if applicable, extracting from product name for REWE
+                    const qMismatch = hasQuantityMismatch(prod.Name, offName);
 
                     if (currentScore > bestMatchScore && !qMismatch && currentScore >= 45) {
                         bestMatchScore = currentScore;
-                        bestMatchImg = candidate.image_url || candidate.image_front_url;
+                        if (candidate.media && candidate.media.images && candidate.media.images.length > 0) {
+                            bestMatchImg = candidate.media.images[0]._links.self.href;
+                        }
                     }
                   }
 
                   if (bestMatchImg) {
-                    log(`Found matching image on OFF (Score: ${bestMatchScore.toFixed(1)}%): ${bestMatchImg}`);
+                    log(`Found matching image on REWE (Score: ${bestMatchScore.toFixed(1)}%): ${bestMatchImg}`);
                     try {
                       // Fetch image as blob via CORS proxy
                       const corsProxyUrl = `https://corsproxy.io/?${encodeURIComponent(bestMatchImg)}`;
@@ -309,13 +317,13 @@ import Layout from '../layouts/Layout.astro';
                       log(`Error downloading/blobbing image for ${prod.Name}: ${e.message}`, true);
                     }
                   } else {
-                     log(`No suitable match found on OpenFoodFacts for ${prod.Name} (Either low score or quantity mismatch).`);
+                     log(`No suitable match found on REWE for ${prod.Name} (Either low score or quantity mismatch).`);
                   }
                 } else {
-                   log(`No matches on OpenFoodFacts for ${prod.Name}`);
+                   log(`No matches on REWE for ${prod.Name}`);
                 }
               } else {
-                 log(`OpenFoodFacts API error for ${prod.Name}`);
+                 log(`REWE API error for ${prod.Name}`);
               }
             }
           }
@@ -324,7 +332,7 @@ import Layout from '../layouts/Layout.astro';
             // Because Astro is configured with base: '/SaftLAN', the image path must be relative to the domain root
             // Astro handles paths in the public folder. It's safer to use a relative or absolute path taking base into account if deployed.
             // When using static deployment, paths from public/ are just at the root. But with a base path, we need to prefix.
-            imageUrl = `/images/${localImageName}`;
+            imageUrl = `/SaftLAN/images/${localImageName}`;
           }
 
           finalProducts.push({
